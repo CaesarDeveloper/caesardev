@@ -42,7 +42,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             César Arguijo
           </Heading>
-          <p>Creativo digital ( Artista / Desarrollador / Diseñador )</p>
+          <Paragraph>Creativo digital ( Artista / Desarrollador / Diseñador )</Paragraph>
         </Box>
         <Box
           flexShrink={0}
@@ -148,7 +148,7 @@ const Home = () => (
                 name="Next.js"
                 src="https://miro.medium.com/max/1200/1*xsMYIt3m_cleoHcd-Ncozg.png"
               />
-              <p>Next.js</p>
+              <Paragraph>Next.js</Paragraph>
             </Box>
 
             <Box w="" p={0}>
@@ -156,7 +156,7 @@ const Home = () => (
                 name="Javascript"
                 src="https://cdn.iconscout.com/icon/free/png-256/javascript-2752148-2284965.png"
               />
-              <p>Javascript</p>
+              <Paragraph>Javascript</Paragraph>
             </Box>
 
             <Box w="" p={0}>
@@ -164,7 +164,7 @@ const Home = () => (
                 name="HTML"
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNCYT6aCga_RwcVXJIZ4P3cIH5FiRE9YMBEfggcZzk7NRvtQ7iz0w_2y185rcmUQypn2A&usqp=CAU"
               />
-              <p>HTML</p>
+              <Paragraph>HTML</Paragraph>
             </Box>
 
             <Box w="" p={0}>
@@ -172,7 +172,7 @@ const Home = () => (
                 name="CSS"
                 src="https://i.pinimg.com/originals/d5/b9/3b/d5b93bad3c10cc5b92b47e4678598548.jpg"
               />
-              <p>CSS</p>
+              <Paragraph>CSS</Paragraph>
             </Box>
 
             <Box w="" p={0}>
@@ -180,7 +180,7 @@ const Home = () => (
                 name="Git"
                 src="https://i.pinimg.com/736x/01/e5/00/01e500fca29c045d432b64f285f9c229.jpg"
               />
-              <p>Git</p>
+              <Paragraph>Git</Paragraph>
             </Box>
 
             <Box w="" p={0}>
@@ -188,7 +188,7 @@ const Home = () => (
                 name="Node.js"
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5XXcrSwmxBeIVPgP6ni-1D3YiQ1u-gIEZZJougnJcFhprf-HYxYoReURIzV52OddQgiM&usqp=CAU"
               />
-              <p>Node.js</p>
+              <Paragraph>Node.js</Paragraph>
             </Box>
 
             <Box w="" p={0}>
@@ -196,7 +196,7 @@ const Home = () => (
                 name="PHP"
                 src="https://p.kindpng.com/picc/s/11-118738_php-logo-png-circle-transparent-png.png"
               />
-              <p>PHP</p>
+              <Paragraph>PHP</Paragraph>
             </Box>
 
             <Box w="" p={0}>
@@ -204,7 +204,7 @@ const Home = () => (
                 name="Docker"
                 src="https://www.docker.com/wp-content/uploads/2022/05/Docker_Temporary_Image_Google_Blue_1080x1080_v1.png"
               />
-              <p>Docker</p>
+              <Paragraph>Docker</Paragraph>
             </Box>
 
             <Box w="" p={0}>
@@ -212,7 +212,7 @@ const Home = () => (
                 name="Webpack"
                 src="https://jessecolligan.com/images/webpack_logo.png"
               />
-              <p>Webpack</p>
+              <Paragraph>Webpack</Paragraph>
             </Box>
 
             <Box w="" p={0}>
@@ -220,7 +220,7 @@ const Home = () => (
                 name="Babel"
                 src="https://miro.medium.com/max/800/1*DGJT51DxMSbsRNuF6J_c6Q.jpeg"
               />
-              <p>Babel</p>
+              <Paragraph>Babel</Paragraph>
             </Box>
 
             <Box w="" p={0}>
@@ -228,7 +228,7 @@ const Home = () => (
                 name="Vite.js"
                 src="https://uploads.sitepoint.com/wp-content/uploads/2021/04/1618197067vitejs.png"
               />
-              <p>Vite.js</p>
+              <Paragraph>Vite.js</Paragraph>
             </Box>
 
             <Box w="" p={0}>
@@ -236,7 +236,7 @@ const Home = () => (
                 name="Typescript"
                 src="https://miro.medium.com/max/816/1*mn6bOs7s6Qbao15PMNRyOA.png"
               />
-              <p>Typescript</p>
+              <Paragraph>Typescript</Paragraph>
             </Box>
           </Wrap>
 
