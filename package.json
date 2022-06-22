@@ -1,4 +1,5 @@
 {
+  "homepage": "https://caesardeveloper.github.io/caesardev",
   "name": "caesardeveloper-homepage",
   "version": "1.0.0",
   "description": "Caesar developer website",
@@ -7,7 +8,6 @@
     "build": "next build",
     "start": "next start",
     "export": "next export",
-    "deploy": "sh deploy.sh",
     "prettier": "prettier --write .",
     "lint": "next lint"
   },
