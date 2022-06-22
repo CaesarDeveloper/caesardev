@@ -8,7 +8,6 @@ import thumbWifibus from '../public/images/works/wifibus-details.png'
 import thumbUpperbusiness from '../public/images/works/upperbusiness.png'
 import thumbIndiemaker from '../public/images/works/indiemaker.png'
 
-
 const Works = () => (
   <Layout title="Portafolio">
     <Container>
@@ -17,13 +16,15 @@ const Works = () => (
       </Heading>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
-
         <Section>
-          <WorkGridItem id="smsmasivos" title="SMS Masivos" thumbnail={thumbSMSMasivos}>
+          <WorkGridItem
+            id="smsmasivos"
+            title="SMS Masivos"
+            thumbnail={thumbSMSMasivos}
+          >
             Landing page para la empresa de envío de mensajes SMS
           </WorkGridItem>
         </Section>
-
 
         <Section>
           <WorkGridItem
@@ -31,17 +32,15 @@ const Works = () => (
             title="Mobilitylabs"
             thumbnail={thumbMobilitylabs}
           >
-            Landing page con e-commece integrado para dispositivos de rastreo GPS
+            Landing page con e-commece integrado para dispositivos de rastreo
+            GPS
           </WorkGridItem>
         </Section>
 
         <Section delay={0.1}>
-          <WorkGridItem
-            id="wifibus"
-            title="Wifibus"
-            thumbnail={thumbWifibus}
-          >
-            Aplicación de entretenimiento móvil enfocada para los pasajeros del S.I.T de la ciudad de León Gto
+          <WorkGridItem id="wifibus" title="Wifibus" thumbnail={thumbWifibus}>
+            Aplicación de entretenimiento móvil enfocada para los pasajeros del
+            S.I.T de la ciudad de León Gto
           </WorkGridItem>
         </Section>
 
@@ -51,11 +50,11 @@ const Works = () => (
             title="Upperbusiness"
             thumbnail={thumbUpperbusiness}
           >
-            Sitio web corporativo para empresa de consultoría en el área Fiscal, Contable, Financiero, Corporativo, de Negocios, Legal y de Comercio Exterior
+            Sitio web corporativo para empresa de consultoría en el área Fiscal,
+            Contable, Financiero, Corporativo, de Negocios, Legal y de Comercio
+            Exterior
           </WorkGridItem>
         </Section>
-        
-        
       </SimpleGrid>
 
       <Section delay={0.2}>
@@ -68,13 +67,16 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.3}>
-          <WorkGridItem id="indiemaker" thumbnail={thumbIndiemaker} title="Indie maker">
-            Landing page de e-commerce para comprar y vender proyectos paralelos, saas, dominios y más.
+          <WorkGridItem
+            id="indiemaker"
+            thumbnail={thumbIndiemaker}
+            title="Indie maker"
+          >
+            Landing page de e-commerce para comprar y vender proyectos
+            paralelos, saas, dominios y más.
           </WorkGridItem>
         </Section>
       </SimpleGrid>
-
-   
     </Container>
   </Layout>
 )

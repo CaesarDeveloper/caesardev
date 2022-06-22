@@ -10,20 +10,18 @@ const Work = () => (
       <Title>
         SMS Masivos <Badge>2016</Badge>
       </Title>
-      <P>
-        Landing page para la empresa de envío de mensajes SMS
-      </P>
+      <P>Landing page para la empresa de envío de mensajes SMS</P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
           <Link href="https://www.smsmasivos.com.mx/">
-          https://www.smsmasivos.com.mx/ <ExternalLinkIcon mx="2px" />
+            https://www.smsmasivos.com.mx/ <ExternalLinkIcon mx="2px" />
           </Link>
-        </ListItem>        
+        </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
           <span>PHP, Javascript, Wordpress, Apache</span>
-        </ListItem>     
+        </ListItem>
       </List>
 
       <WorkImage src="/images/works/smsmasivos.png" alt="Inkdrop" />

@@ -17,13 +17,14 @@ const Work = () => (
         <ListItem>
           <Meta>Website</Meta>
           <Link href="https://play.google.com/store/apps/details?id=com.vzert.wifibus&hl=es_US&gl=US">
-          https://play.google.com/store/apps/details?id=com.vzert.wifibus&hl=es_US&gl=US <ExternalLinkIcon mx="2px" />
+            https://play.google.com/store/apps/details?id=com.vzert.wifibus&hl=es_US&gl=US{' '}
+            <ExternalLinkIcon mx="2px" />
           </Link>
-        </ListItem>        
+        </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
           <span>HTML CSS, Javascript, Android (Kotlin) </span>
-        </ListItem>     
+        </ListItem>
       </List>
 
       <WorkImage src="/images/works/wifibus-details.png" alt="Wifibus" />

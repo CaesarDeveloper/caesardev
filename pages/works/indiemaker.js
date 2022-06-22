@@ -10,18 +10,22 @@ const Work = () => (
       <Title>
         Indiemaker <Badge>2020</Badge>
       </Title>
-      <P>Colaboración en el desarrollo del sistema de Indiemaker enfocado a compra y venta de proyectos independientes, Software as a Service (SAAS), dominios y más.</P>
+      <P>
+        Colaboración en el desarrollo del sistema de Indiemaker enfocado a
+        compra y venta de proyectos independientes, Software as a Service
+        (SAAS), dominios y más.
+      </P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
           <Link href="https://indiemaker.co/">
-          https://indiemaker.co/ <ExternalLinkIcon mx="2px" />
+            https://indiemaker.co/ <ExternalLinkIcon mx="2px" />
           </Link>
-        </ListItem>        
+        </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
           <span>Node.js, React, Next.js, Styled Components</span>
-        </ListItem>     
+        </ListItem>
       </List>
 
       <WorkImage src="/images/works/indiemaker-1.png" alt="Indiemaker" />

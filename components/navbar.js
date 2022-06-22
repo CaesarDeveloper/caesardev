@@ -103,13 +103,13 @@ const Navbar = props => {
                 variant="outline"
                 aria-label="Options"
               />
-              <MenuList bg={useColorModeValue('#ffffff', '#000000')} >
+              <MenuList bg={useColorModeValue('#ffffff', '#000000')}>
                 <NextLink href="/" passHref>
                   <MenuItem as={Link}>Acerca de</MenuItem>
                 </NextLink>
                 <NextLink href="/works" passHref>
                   <MenuItem as={Link}>Portafolio</MenuItem>
-                </NextLink>                
+                </NextLink>
                 <MenuItem
                   as={Link}
                   href="https://api.whatsapp.com/send/?phone=524778492927&text=Hola César, encontré tu contacto por tu sitio web y me gustaría información para..."
